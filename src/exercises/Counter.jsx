@@ -1,11 +1,11 @@
-import React from "react";
 import useCounter from "../hooks/useCounter";
+import "../styles/Counter.css";
 
 export default function Counter() {
   const { counter, increment, decrement, reset } = useCounter();
 
   return (
-    <div>
+    <div className="counter">
       <h2> Número de clics: {counter} </h2>
       <button onClick={increment}>Aumentar</button>
       <button onClick={decrement}>Disminuir</button>

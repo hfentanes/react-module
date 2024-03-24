@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import "../styles/Welcome.css";
 // import Age from "./Age";
 
 export default function Welcome({ name }) {
